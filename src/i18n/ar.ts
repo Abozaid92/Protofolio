@@ -1,0 +1,162 @@
+export const ar = {
+  nav: {
+    home: "الرئيسية",
+    about: "عني",
+    projects: "المشاريع",
+    blog: "المدونة",
+    contact: "تواصل معي",
+  },
+  hero: {
+    name: {
+      first: "إبراهيم",
+      last: "أبو زيد",
+    },
+    available: "متاح للعمل",
+    bio: "أحوّل الأفكار إلى تجارب ويب سريعة، قابلة للتوسع، وجميلة.",
+    cta: "شاهد أعمالي",
+    contact: "تواصل معي",
+    roles: [
+      "مطور Full Stack",
+      "متخصص Next.js",
+      "صانع React",
+      "مهندس UI/UX",
+      "حلّال مشاكل",
+    ],
+    socials: {
+      linkedin: "لينكدإن",
+      email: "البريد",
+      github: "جيت هب",
+    },
+    stats: [
+      {
+        value: 50,
+        suffix: "+",
+        label: "مشروع",
+      },
+      {
+        value: 30,
+        suffix: "+",
+        label: "عميل",
+      },
+      {
+        value: 5,
+        suffix: "+",
+        label: "سنوات",
+      },
+    ],
+    terminal: {
+      title: "الملف الشخصي",
+      lines: [
+        { type: "cmd", text: "cat contact.json" },
+        { type: "out", text: "{" },
+        { type: "out", text: '  "name": "إبراهيم أبو زيد",' },
+        { type: "out", text: '  "location": "طنطا، مصر",' },
+        { type: "out", text: '  "phone": "+20 108 076 1700",' },
+        { type: "out", text: '  "email": "ebrahim.abozaid567@gmail.com",' },
+        { type: "out", text: '  "role": "مطور Full Stack",' },
+        { type: "out", text: '  "status": "متاح للعمل"' },
+        { type: "out", text: "}" },
+        { type: "cmd", text: "node ready.js" },
+        { type: "out", text: "جاهز لبناء المواقع." },
+        { type: "out", text: "تواصل معي لنبدأ." },
+      ],
+    },
+  },
+  about: {
+    title: "عني",
+    bio: "اسمي ابراهيم محمود السيد ابوزيد، عمري 18 سنة، أعيش في طنطا، مصر. أنا مطور Full-Stack متخصص في بناء تطبيقات ويب عالية الأداء باستخدام التقنيات الحديثة.",
+    skills: "المهارات",
+    services: "الخدمات",
+    servicesList: {
+      webDev: "تطوير مواقع الويب",
+      fullStack: "تطوير Full-Stack",
+      api: "تطوير API",
+    },
+  },
+  projects: {
+    title: "المشاريع",
+    featured: "المشاريع المميزة",
+    all: "جميع المشاريع",
+    filter: "تصفية حسب",
+    viewProject: "عرض المشروع",
+    sourceCode: "الكود المصدري",
+  },
+  contact: {
+    title: "تواصل معي",
+    description: "لديك مشروع في ذهنك؟ دعنا نتحدث!",
+    name: "الاسم",
+    email: "البريد الإلكتروني",
+    subject: "الموضوع",
+    message: "الرسالة",
+    send: "إرسال الرسالة",
+    sending: "جاري الإرسال...",
+    success: "تم إرسال رسالتك بنجاح!",
+    error: "حدث خطأ. يرجى المحاولة مرة أخرى.",
+  },
+  section: {
+    eyebrow: "تواصل",
+    title: "خلينا نبني حاجة قوية",
+    description:
+      "عندك فكرة مشروع أو حابب تتكلم؟ املى النموذج وهرد عليك في أقرب وقت.",
+  },
+  map: {
+    title: "الموقع",
+    description: "القاهرة، مصر",
+    locationLabel: "موقعي",
+    loadingLabel: "جاري تحميل الخريطة...",
+    fallbackTitle: "الخريطة غير متاحة",
+    fallbackDescription: "الخريطة بتتحمل، استنى لحظة.",
+  },
+  form: {
+    title: "إرسال رسالة",
+    description: "املأ بياناتك وهرد عليك في أقرب وقت ممكن.",
+    submit: "إرسال الرسالة",
+    submitting: "جارٍ الإرسال...",
+    honeypotLabel: "اترك هذا الحقل فارغًا",
+    successTitle: "تم إرسال الرسالة بنجاح",
+    errorTitle: "حدث خطأ",
+    fields: {
+      name: {
+        label: "الاسم بالكامل",
+        placeholder: "اكتب اسمك",
+      },
+      email: {
+        label: "البريد الإلكتروني",
+        placeholder: "اكتب بريدك الإلكتروني",
+      },
+      subject: {
+        label: "الموضوع",
+        placeholder: "الموضوع إيه؟",
+      },
+      message: {
+        label: "الرسالة",
+        placeholder: "اكتب رسالتك...",
+      },
+    },
+  },
+  footer: {
+    rights: "جميع الحقوق محفوظة",
+    builtWith: "مبني بـ",
+  },
+  testimonials: {
+    title: "آراء العملاء",
+    whatClientsSay: "ماذا يقول العملاء",
+  },
+  chatbot: {
+    welcomeMessage:
+      "أهلاً! 👋 أنا المساعد الذكي لهذا البورتفوليو. اسألني عن المشاريع أو المهارات أو كيف تتواصل!",
+    placeholder: "اكتب رسالتك...",
+    online: "متاح الآن",
+    typing: "يكتب...",
+    send: "إرسال",
+    suggestions: [
+      "حابب أعرف أكتر عن خبرات إبراهيم ومهاراته التقنية",
+      "ممكن توريني شوية من أقوى مشاريع إبراهيم؟",
+      "هل إبراهيم متاح حالياً لفرص شغل أو مشاريع جديدة؟",
+      "حابب أتواصل مع إبراهيم، إيه أفضل طريقة؟",
+    ],
+    assistantName: "المساعد الذكي",
+    whatsappBtn: "واتساب",
+    callBtn: "اتصال مباشر",
+  },
+};
